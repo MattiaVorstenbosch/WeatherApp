@@ -72,7 +72,7 @@ function App() {
 
   useEffect(() => {
     if (weather.icon) {
-      fetch(`http://openweathermap.org/img/wn/${weather.icon}@2x.png`)
+      fetch(`https://openweathermap.org/img/wn/${weather.icon}@2x.png`)
         .then((res) => setWeatherImage(res.url))
         .catch((err) => console.error(err));
     }
