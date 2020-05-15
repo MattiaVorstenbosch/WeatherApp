@@ -58,6 +58,7 @@ function App() {
     setError(null);
     setCity(event.target.value);
     setWeather(DEFAULT_WEATHER);
+    setWeatherImage("");
   };
 
   const handleClick = async (event: any) => {
